@@ -2,7 +2,7 @@
 // Dado um caractere, exiba o código ASCII correspondente
 
 #include <stdio.h>
-    int main(void) {
+int main(void) {
     char ascii = 'A'; // tipo char é iniciado em aspas simples
     printf("%c \n", ascii); // A
     printf("%d \n", ascii); // 65
