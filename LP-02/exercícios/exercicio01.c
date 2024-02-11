@@ -1,6 +1,6 @@
 // Exercício 1. Tabela-verdade do operador &&
-
 // Execute o programa a seguir e analise o resultado.
+
 #include <stdio.h>
 int main(void) {
 printf("0 && 0 == %d\n",0 && 0);    // 0
