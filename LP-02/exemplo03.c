@@ -4,13 +4,13 @@
 // Exemplo 3. Operadores lógicos
 #include <stdio.h>
 int main(void) {
-printf("!0 = %d\n",!0);         // 1
-printf("!9 = %d\n",!9);         // 0
-printf("1&&0 = %d\n",1&&0);     // 0
-printf("0||1 = %d\n",0||1);     // 1
-printf("2<3 || 3<2 = %d\n",2<3 || 3<2); // 1
-printf("%d %d %d %d", !3, !0, 3+'a'>'b'+2 && !'b', 1 || !2 && 3);
-return 0;
+    printf("!0 = %d\n",!0);         // 1
+    printf("!9 = %d\n",!9);         // 0
+    printf("1&&0 = %d\n",1&&0);     // 0
+    printf("0||1 = %d\n",0||1);     // 1
+    printf("2<3 || 3<2 = %d\n",2<3 || 3<2); // 1
+    printf("%d %d %d %d", !3, !0, 3+'a'>'b'+2 && !'b', 1 || !2 && 3);
+    return 0;
 }
 
 /*
