@@ -4,12 +4,12 @@
 // Exemplo 2. Operadores relacionais
 #include <stdio.h>
 int main(void) {
-printf("1==2 = %d\n",1==2);     // 0
-printf("1!=2 = %d\n",1!=2);     // 1
-printf("1<2 = %d\n",1<2);       // 1
-printf("1>2 = %d\n",1>2);       // 0
-printf("9-2<=2*3+1 = %d\n",9-2<=2*3+1); // 1
-return 0;
+    printf("1==2 = %d\n",1==2);     // 0
+    printf("1!=2 = %d\n",1!=2);     // 1
+    printf("1<2 = %d\n",1<2);       // 1
+    printf("1>2 = %d\n",1>2);       // 0
+    printf("9-2<=2*3+1 = %d\n",9-2<=2*3+1); // 1
+    return 0;
 }
 
 /*
