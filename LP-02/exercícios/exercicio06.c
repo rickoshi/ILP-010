@@ -15,4 +15,3 @@ int main(void) {
     else { _textcolor(12); puts("Reprovado"); }
     return 0;
 }
-
