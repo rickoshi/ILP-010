@@ -15,7 +15,7 @@ int main(void) {
 
 // Note que o uso do operador condicional pode deixar o código do programa mais conciso!
 
-/* Outros exemplos 
+/* Outros exemplos
 int a2 = 10, b2 = 20, c2;
 c2 = (a2 < b2) ? a2 : b2;
 printf("%d", c2);
