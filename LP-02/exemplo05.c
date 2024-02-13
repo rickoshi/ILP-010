@@ -4,7 +4,7 @@
 // Exemplo 5. Uso de blocos
 #include <conio.h>
 ...
-if( m>=6 ) { _textcolor(9); puts("Aprovado");  }
+if( m>=6 ) { _textcolor(9); puts("Aprovado"); }
 else { _textcolor(12); puts("Reprovado"); }
 
 // é necessário usar ";" em cada instrução do bloco
