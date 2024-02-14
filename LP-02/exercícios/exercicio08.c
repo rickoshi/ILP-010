@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 #include <math.h>
-int main(void){
+int main(void) {
     int a, b, c;    // a=x^2, b=x, c
     printf("Coeficientes a=x^2, b=x e c: ");
     scanf("%d %d %d", &a, &b, &c);
