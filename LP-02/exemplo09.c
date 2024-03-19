@@ -22,17 +22,23 @@ int main(void) {
 
 // A função putchar(), declarada em stdio.h, exibe um único caractere no vídeo!
 
-// por não possuir o comando break nos cases, 3, default e 5, se por acaso um desses casos for escolhido, o programa passa para a próxima instrução 
+/*
+Avalia a expressão (que deve ser do tipo char ou int).
+Entra no caso cuja constante (cte i) é igual ao valor da expressão.
+Se um tal caso não existe, entra no caso default (que é opcional).
+Após entrar num caso, a execução só termina quando um break é encontrado
+*/
 
+// por não possuir o comando break nos cases, 3, default e 5, se por acaso um desses casos for escolhido, o programa passa para a próxima instrução 
 /*
 Numero? 1
-A
+A.
 Numero? 3
-BC
+BC.
 Numero? 4
-C
+C.
 Numero? 2
-*D
+*D.
 Numero? 5
-D
+D.
 */
