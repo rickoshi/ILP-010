@@ -12,25 +12,25 @@ Acima de 4.664,68                   27,5 %
 
 #include <stdio.h>
 int main(void) {
-    float salario, aliquota, imposto;
+    double salario, aliquota, imposto; // Devido a imprecisão de valores float, opta-se pelo tipo double
     printf("Qual o salario? ");
-    scanf("%f", &salario);
-    aliquota = (salario <= 1903.98 ? 0 : 
-    (salario <= 2826.65 ? 7.5 : 
-        (salario <= 3751.05 ? 15.0 : 
-            (salario <= 4664.68 ? 22.5 : 
-                (salario > 4664.68 ? 27.5 : 2)))));
+    scanf("%lf", &salario);     // Para a função scanf, o tipo double necessita ser apontado por "%lf" ao invés de "%f"
+    aliquota =  (salario <= 1903.98) ? 0.0 : 
+                (salario <= 2826.65) ? 7.5 : 
+                (salario <= 3751.05) ? 15.0 : 
+                (salario <= 4664.68) ? 22.5 : 
+                27.5;
     printf("Aliquota: %.2f%%\n", aliquota);
 
     imposto = salario * (aliquota / 100);
     printf("Imposto a ser recolhido = R$%.2f", imposto);
 
 /*
-1903.98
-1903.99 2826.65
-2826.66 3751.05
-3751.06 4664.68
-4664.69
+1903.98             - 0%
+1903.99 2826.65     - 7.50%
+2826.66 3751.05     - 15.00%
+3751.06 4664.68     - 22.50%
+4664.69             - 27.50%
 */
 }
 
